@@ -10,7 +10,7 @@
       "data pipeline"
    ],
    "scripts":{
-      "postdeploy":"wget -qO- https://github.com/ConduitIO/conduit/releases/download/v0.1.1/conduit_0.1.1_Linux_i386.tar.gz | tar xvz"
+      "postdeploy":"wget -qO- https://github.com/ConduitIO/conduit/releases/download/v0.1.1/conduit_0.1.1_Linux_i386.tar.gz | tar xvz -C /app/"
    },
    "repository":"https://github.com/ConduitIO/conduit",
    "website":"https://www.conduit.io/",
